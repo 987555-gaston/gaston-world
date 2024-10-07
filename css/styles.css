@@ -263,6 +263,19 @@ main h1, main h2:first-child {
     transform: scale(1.1);
 }
 
+.project-grid a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-grid a:visited {
+    color: inherit;
+}
+
+.project-grid a:hover {
+    text-decoration: none;
+}
+
 /* Footer Styles */
 footer {
     background-color: #3E2723; /* Dark brown for footer background */
