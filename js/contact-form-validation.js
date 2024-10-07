@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm');
     const errorMessages = document.getElementById('errorMessages');
+    const contactFormSection = document.getElementById('contact-form');
 
     form.addEventListener('submit', function(event) {
         event.preventDefault();
@@ -50,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function showThankYouMessage() {
-        const contactFormSection = document.getElementById('contact-form');
         contactFormSection.innerHTML = '<div class="thank-you-message"><h2>Thank you!</h2><p>We\'ve received your message and we\'ll get in touch with you within 2 business days.</p></div>';
     }
 });
